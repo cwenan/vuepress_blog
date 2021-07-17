@@ -10,4 +10,4 @@ libs
 dist
 
 # 隐藏私密信息
-secert.js
+secret.js
