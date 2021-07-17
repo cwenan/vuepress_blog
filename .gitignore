@@ -8,3 +8,6 @@ package-lock.json
 lib
 libs
 dist
+
+# 隐藏私密信息
+secert.js

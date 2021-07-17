@@ -1,9 +1,9 @@
 module.exports = [
-  {text: '主页', link: '/', icon: 'reco-home'},
-  { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+  {text: '主页', link: '/'},
+  { text: '时间轴', link: '/timeline/',},
   {
     text: "前端",
-    icon: "reco-message",
+    ariaLabel: '分类',
     items: [
       {
         text: "HTML",
