@@ -1,4 +1,4 @@
-const secret = require("secret")
+const secret = require("./secret")
 module.exports = [
     //复制代码插件
     ["vuepress-plugin-nuggets-style-copy", {
