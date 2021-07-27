@@ -1,6 +1,6 @@
-const sidebar = require("./sidebar")
-const nav = require("./nav")
-const plugin = require("./plugins")
+const sidebar = require("./config/sidebar")
+const nav = require("./config/nav")
+const plugin = require("./config/plugins")
 module.exports = {
   //部署到博客
   // base: '/vuepress_blog/',
@@ -28,11 +28,14 @@ module.exports = {
 
   themeConfig: {
     //网页左上角的图标
-    logo: '/logo.png',
+    // logo: '/logo.png',
     //导航栏
     nav: nav,
+
     //侧边栏
     sidebar: sidebar,
+    //侧边栏的深度
+    sidebarDepth: 0,
 
     //开启搜索
     search: true,
@@ -51,11 +54,33 @@ module.exports = {
       appKey: 'l2C3XdNLdXGLDhY7Pe6rTVpc', // your appKey
     },
 
+    //博客插件？文档已失效，暂时看不了
+    // type: 'blog',
+    // blogConfig: {
+    //   category: {
+    //     location: 2,     // 在导航栏菜单中所占的位置，默认2
+    //     text: 'Category' // 默认文案 “分类”
+    //   },
+    //   tag: {
+    //     location: 3,     // 在导航栏菜单中所占的位置，默认3
+    //     text: 'Tag'      // 默认文案 “标签”
+    //   },
+    //   socialLinks: [     // 信息栏展示社交信息
+    //     { icon: 'reco-github', link: 'https://github.com/recoluan' },
+    //     { icon: 'reco-npm', link: 'https://www.npmjs.com/~reco_luan' }
+    //   ]
+    // }
+
   },
 
 
   //添加插件
-  plugins: plugin
+  plugins: plugin,
+
+  //代码块显示行号
+  markdown: {
+    lineNumbers: true
+  }
 
 
 }

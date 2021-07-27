@@ -1,17 +1,5 @@
 const secret = require("./secret")
 module.exports = [
-    //复制代码插件
-    ["vuepress-plugin-nuggets-style-copy", {
-      copyText: "复制代码",
-      tip: {
-        content: "复制成功!"
-      }
-    }],
-    //流程图插件
-    ['flowchart'],
-
-    //标签增强，可以自定义某些名言名句
-    ["vuepress-plugin-boxx"],
 
     //全局搜索
     ['fulltext-search'],
@@ -46,6 +34,7 @@ module.exports = [
 
     //博客主题
     ['@vuepress/blog'],
+    ['blog-multidir'],
 
     //图片放大缩小
     ['@vuepress/medium-zoom',
@@ -73,5 +62,32 @@ module.exports = [
 
         //自动创建issue
         autoCreateIssue: true
-      }]
+      }],
+
+    //进度条
+    ['@vuepress/nprogress'],
+
+
+    //代码复制，参考这个仓库：https://github.com/znicholasbrown/vuepress-plugin-code-copy
+    ['vuepress-plugin-code-copy', true],
+
+    //侧边栏
+      [
+        'vuepress-plugin-right-anchor',
+        {
+          showDepth: 2,
+          ignore: [
+            '/',
+            '/api/'
+            // 更多...
+          ],
+          expand: {
+            trigger: 'click',
+              clickModeDefaultOpen: true
+          },
+          customClass: 'your-customClass',
+          disableGlobalUI: false,
+    }
+    ]
+
 ]

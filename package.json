@@ -9,7 +9,15 @@
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-google-analytics": "^1.8.2",
     "@vuepress/plugin-medium-zoom": "^1.8.2",
-    "vuepress": "^1.8.2"
+    "@vuepress/plugin-nprogress": "^1.8.2",
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-authors": "^0.0.2",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-autometa": "^0.1.13",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "vuepress-plugin-handle-sidebar": "^1.0.3",
+    "vuepress-plugin-right-anchor": "^0.5.2",
+    "vuepress-plugin-side-anchor": "^1.0.6"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -19,6 +27,12 @@
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "vuepress-plugin-blog-multidir": "^1.0.5",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-global-toc": "^1.1.0",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-tags": "^1.0.2",
+    "vuepress-plugin-toolbar": "^1.0.1"
   }
 }

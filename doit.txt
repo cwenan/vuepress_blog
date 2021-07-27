@@ -1,0 +1,16 @@
+1.添加徽章；Travis-Cl，Shields.io
+2.自动化部署GitHub
+3.搜索功能优化
+4.添加pwa功能
+5.网站的头像，icon图标
+6.自定义主题参考文章：https://juejin.cn/post/6869565504756023310
+7.重写404页面
+8.阅读进度条
+9.代码复制，修改代码显示的样式,代码隐藏,
+10.文章的readme页面如何处理
+11.参考这个博客样式：https://www.sofineday.com/vuepress-sidebar.html#%E9%BB%98%E8%AE%A4%E9%85%8D%E7%BD%AE，同时里面也有许多可以学习的东西
+12.vuepress的blog样式
+13.字体大小
+资料：
+1.vuepress社区：https://vuepress-community.netlify.app/zh/
+    有一个展示当前文章的目录的功能
