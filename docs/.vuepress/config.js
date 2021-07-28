@@ -3,7 +3,7 @@ const nav = require("./config/nav")
 const plugin = require("./config/plugins")
 module.exports = {
   //部署到博客
-  // base: '/vuepress_blog/',
+  // base: '/',
 
   //个人信息
   title: "问安Coding",   //博客标题
@@ -21,8 +21,6 @@ module.exports = {
       //谷歌分析
     ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/ga.js"}],
 
-        // 引入自定义全局搜索的js
-    ["script", {"language": "javascript", "type": "text/javascript", "src": "/js/pgmanor-self.js"}]
   ],
 
 
@@ -48,11 +46,11 @@ module.exports = {
     //最后更新时间
     lastUpdated: '最后更新时间',
 
-    //评论
-    valineConfig: {
-      appId: 'I8xzqVCvfli7qf1YNR1oXUty-gzGzoHsz',// your appId
-      appKey: 'l2C3XdNLdXGLDhY7Pe6rTVpc', // your appKey
-    },
+    // //评论
+    // valineConfig: {
+    //   appId: 'I8xzqVCvfli7qf1YNR1oXUty-gzGzoHsz',// your appId
+    //   appKey: 'l2C3XdNLdXGLDhY7Pe6rTVpc', // your appKey
+    // },
 
     //博客插件？文档已失效，暂时看不了
     // type: 'blog',

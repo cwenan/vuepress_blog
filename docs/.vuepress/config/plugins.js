@@ -2,7 +2,7 @@ const secret = require("./secret")
 module.exports = [
 
     //全局搜索
-    ['fulltext-search'],
+    // ['fulltext-search'],
 
     //上次更新
     ['@vuepress/last-updated',
@@ -32,9 +32,6 @@ module.exports = [
     //回到顶部
     ['@vuepress/back-to-top'],
 
-    //博客主题
-    ['@vuepress/blog'],
-    ['blog-multidir'],
 
     //图片放大缩小
     ['@vuepress/medium-zoom',
@@ -64,8 +61,6 @@ module.exports = [
         autoCreateIssue: true
       }],
 
-    //进度条
-    ['@vuepress/nprogress'],
 
 
     //代码复制，参考这个仓库：https://github.com/znicholasbrown/vuepress-plugin-code-copy

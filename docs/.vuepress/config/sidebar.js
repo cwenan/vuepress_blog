@@ -13,8 +13,6 @@ module.exports = {
       title: 'JavaWeb',
       children: [
         ['/docs/backend/python/python', "python目录"]
-        // ['/docs/backend/python/python', "python目录"]
-
       ]
     },
   ],

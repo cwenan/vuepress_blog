@@ -15,3 +15,9 @@
 资料：
 1.vuepress社区：https://vuepress-community.netlify.app/zh/
     有一个展示当前文章的目录的功能
+
+
+
+遇到的坑：
+1.Uncaught SyntaxError: Unexpected token <
+    js引入错误
