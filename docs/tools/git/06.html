@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Git分支 | 问安Coding</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    <link rel="icon" href="/logo.png">
+    <script language="javascript" type="text/javascript" src="/js/ga.js"></script>
+    <meta name="description" content="问安编程学习记录">
+    <meta name="author" content="问安">
+    <meta name="keywords" content="Java,python,c,css,js,vue">
+    
+    <link rel="preload" href="/assets/css/0.styles.c2acbf10.css" as="style"><link rel="preload" href="/assets/js/app.393b6f2a.js" as="script"><link rel="preload" href="/assets/js/6.42dbbf34.js" as="script"><link rel="preload" href="/assets/js/2.b314cc4e.js" as="script"><link rel="preload" href="/assets/js/27.e99970c2.js" as="script"><link rel="prefetch" href="/assets/js/10.e8964feb.js"><link rel="prefetch" href="/assets/js/11.964c25ab.js"><link rel="prefetch" href="/assets/js/12.b0d946a5.js"><link rel="prefetch" href="/assets/js/13.d0e38224.js"><link rel="prefetch" href="/assets/js/14.ad022932.js"><link rel="prefetch" href="/assets/js/15.b542911a.js"><link rel="prefetch" href="/assets/js/16.dd671a6f.js"><link rel="prefetch" href="/assets/js/17.9ed7ed08.js"><link rel="prefetch" href="/assets/js/18.ba04c7fd.js"><link rel="prefetch" href="/assets/js/19.36e84324.js"><link rel="prefetch" href="/assets/js/20.e8d15c3c.js"><link rel="prefetch" href="/assets/js/21.888b6723.js"><link rel="prefetch" href="/assets/js/22.c3ddd3ca.js"><link rel="prefetch" href="/assets/js/23.638cf313.js"><link rel="prefetch" href="/assets/js/24.1c1de055.js"><link rel="prefetch" href="/assets/js/25.2c1ccb25.js"><link rel="prefetch" href="/assets/js/26.b13a76d7.js"><link rel="prefetch" href="/assets/js/28.52806554.js"><link rel="prefetch" href="/assets/js/3.d0146488.js"><link rel="prefetch" href="/assets/js/4.b2d92a1d.js"><link rel="prefetch" href="/assets/js/5.27b125c1.js"><link rel="prefetch" href="/assets/js/7.0dccd0e0.js"><link rel="prefetch" href="/assets/js/8.9fb2722a.js"><link rel="prefetch" href="/assets/js/9.bfcd6fbc.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.c2acbf10.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">问安Coding</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/frontend/html/" class="nav-link">
+  HTML
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/backend/java/java_base/java.html" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/docs/backend/python/" class="nav-link">
+  python
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/tools/git/01.html" class="nav-link">
+  Git
+</a></li></ul></div></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  主页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="前端" class="dropdown-title"><span class="title">前端</span> <span class="arrow down"></span></button> <button type="button" aria-label="前端" class="mobile-dropdown-title"><span class="title">前端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/frontend/html/" class="nav-link">
+  HTML
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="后端" class="dropdown-title"><span class="title">后端</span> <span class="arrow down"></span></button> <button type="button" aria-label="后端" class="mobile-dropdown-title"><span class="title">后端</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/backend/java/java_base/java.html" class="nav-link">
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/docs/backend/python/" class="nav-link">
+  python
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="工具" class="dropdown-title"><span class="title">工具</span> <span class="arrow down"></span></button> <button type="button" aria-label="工具" class="mobile-dropdown-title"><span class="title">工具</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/tools/git/01.html" class="nav-link">
+  Git
+</a></li></ul></div></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>背景</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/tools/git/01.html" class="sidebar-link">版本控制系统的发展</a></li><li><a href="/docs/tools/git/02.html" class="sidebar-link">Git的原理</a></li><li><a href="/docs/tools/git/03.html" class="sidebar-link">版本控制系统应该具备的功能</a></li><li><a href="/docs/tools/git/04.html" class="sidebar-link">相关词汇</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>核心基础</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/tools/git/05.html" class="sidebar-link">基本命令</a></li><li><a href="/docs/tools/git/06.html" aria-current="page" class="active sidebar-link">Git分支</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>拓展知识</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="概念"><a href="#概念" class="header-anchor">#</a> 概念</h2> <p>分支功能即<strong>从原项目中复制一个副本成为一条分支，在分支上进行开发，而不会影响到主分支的内容</strong></p> <blockquote><p>1.Git 保存的不是文件的变化或者差异，而是一系列不同时刻的 <strong>快照</strong></p> <p>2.在进行<strong>提交操作</strong>时，Git 会保存一个提交对象（commit object）,该提交对象会包含<strong>一个指向暂存内容快照的指针</strong>。 但不仅仅是这样，该提交对象还包含了作者的姓名和邮箱、提交时输入的信息<strong>以及指向它的父对象的指针</strong>。</p></blockquote> <p><strong>三个对象</strong>：</p> <ul><li>blob对象：用来保存单个文件的快照</li> <li>树对象：包含目录结构和blob对象索引</li> <li>提交对象：包含树对象的指针和所有提交信息</li> <li><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730161310.png" alt="image-20210730161308644"></li></ul> <p>首次提交产生的提交对象没有父对象，普通提交操作产生的提交对象有一个父对象， 而由多个分支合并产生的提交对象有多个父对象。</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730161919.png" alt="image-20210730161918171"></p> <p>Git默认的分支为master，即<code>git init</code>后自动创建的分支，它与其他分支完全没用区别。在多次进行提交操作后，master分支的指针会自动向前移动，指向最后最新提交的那个提交对象(A--&gt;B--&gt;C)</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730162321.png" alt="image-20210730162319498"></p> <h2 id="创建分支"><a href="#创建分支" class="header-anchor">#</a> 创建分支</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 原有一个master分支，当前提交对象上创建一个testing分支</span>
+$ <span class="token function">git</span> branch testing
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730162636.png" alt=""></p> <p>HEAD是Git的一个指针，它指向当前分支，<code>git branch</code>命令只是创建了一个分支，但没有切换到新分支，HEAD指向原分支master</p> <h2 id="切换分支"><a href="#切换分支" class="header-anchor">#</a> 切换分支</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>$ <span class="token function">git</span> checkout testing
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730162844.png" alt="image-20210730162842492"></p> <h2 id="新分支和原分支"><a href="#新分支和原分支" class="header-anchor">#</a> 新分支和原分支</h2> <p><strong>在新分支testing上开发</strong>：执行了一个<code>git commit</code>后，testing分支向前移动了一步，HEAD指针随提交操作自动向前移动，而master分支保存不变</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730163124.png" alt=""></p> <p>执行<code>git checkout master</code>，指针回到master分支上，<strong>当前项目内的内容是创建testing时的内容</strong>，这也意味着：</p> <p><strong>我们可以创建多个分支来无限试错，如果失败就切换回原分支即可</strong></p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730163411.png" alt="image-20210730163409815"></p> <h2 id="简写"><a href="#简写" class="header-anchor">#</a> 简写</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 创建分支并且切换到新创建的分支上</span>
+$ <span class="token function">git</span> checkout -b new_branch_name
+
+<span class="token comment"># 等价于</span>
+$ <span class="token function">git</span> branch new_branch_name
+$ <span class="token function">git</span> checkout new_branch_name
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="删除分支"><a href="#删除分支" class="header-anchor">#</a> 删除分支</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>$ <span class="token function">git</span> branch -d branch_name
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="合并分支"><a href="#合并分支" class="header-anchor">#</a> 合并分支</h2> <p>背景：</p> <ul><li>你在开发一个项目，为了完成一个新功能，创建了一条分支，并且在这个分支上面进行开发</li> <li>突然，boss打电话过来说线上项目出bug了，需要紧急修复。</li></ul> <hr> <p>这是原来的master分支</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730165702.png" alt="image-20210730165700739"></p> <p>使用<code>git checkout -b iss53</code>创建一个新的分支来开发那个新功能。</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730165810.png" alt="image-20210730165808949"></p> <p>你有了一定的进展，并且在该分支上做了一些提交。</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730165855.png" alt="image-20210730165853695"></p> <p>现在，你接到电话，要去修复bug，需要的仅仅是切换回原理的master分支上<code>git checkout master</code></p> <blockquote><p>这里在切换分支之前，尽可能保留干净的状态，即坚持当前的工作区和暂存区是否还有没有被提交的修改，可能会发生冲突，使用 <code>git status</code>来检查</p></blockquote> <p>为了修复这个bug，你创建了一个hotfix分支<code>git checkout -b hotfix</code>,并且把bug修复了</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730170653.png" alt="image-20210730170652314"></p> <p>这时你需要把hotfix分支合并到主分支master上来</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 先切换到你想要被合并的分支上</span>
+$ <span class="token function">git</span> checkout master
+
+<span class="token comment"># 执行合并操作,合并对应的分支</span>
+$ <span class="token function">git</span> merge hotfix
+
+
+<span class="token comment"># ----------------------</span>
+$ <span class="token function">git</span> checkout master
+$ <span class="token function">git</span> merge hotfix
+Updating f42c576<span class="token punctuation">..</span>3a0874c
+Fast-forward
+ index.html <span class="token operator">|</span> <span class="token number">2</span> ++
+ <span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">2</span> insertions<span class="token punctuation">(</span>+<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><blockquote><p>看到git给出的提示：fast-forward(快进)，因为由于你想要合并的分支 <code>hotfix</code> 所指向的提交 <code>C4</code> 是你所在的提交 <code>C2</code> 的直接后继， 因此 Git 会直接将指针向前移动。换句话说，当你试图合并两个分支时， 如果顺着一个分支走下去能够到达另一个分支，那么 Git 在合并两者的时候， 只会简单的将指针向前推进（指针右移），因为这种情况下的合并操作没有需要解决的分歧——这就叫做 “快进（fast-forward）”。</p></blockquote> <p>现在的bug已经修复</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730171233.png" alt="image-20210730171231763"></p> <p>问题修复后，应先把hotfix分支删除掉，<code>git branch -d hotfix</code>，因为不需要它了，并且使用<code>git checkout iss53</code>继续进行开发新功能</p> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730171427.png" alt="image-20210730171426544"></p> <p>假如此时你已经把新功能开发好了，并且把iss53分支合并到master分支上面来</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 先切换到你想要被合并的分支上</span>
+$ <span class="token function">git</span> checkout master
+
+<span class="token comment"># 执行合并操作,合并对应的分支</span>
+$ <span class="token function">git</span> merge iss53
+
+
+<span class="token comment">#-------------------</span>
+$ <span class="token function">git</span> checkout master
+Switched to branch <span class="token string">'master'</span>
+$ <span class="token function">git</span> merge iss53
+Merge made by the <span class="token string">'recursive'</span> strategy.
+index.html <span class="token operator">|</span>    <span class="token number">1</span> +
+<span class="token number">1</span> <span class="token function">file</span> changed, <span class="token number">1</span> insertion<span class="token punctuation">(</span>+<span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br></div></div><blockquote><p>这和你之前合并 <code>hotfix</code> 分支的时候看起来有一点不一样。 在这种情况下，你的开发历史从一个更早的地方开始分叉开来（diverged）。 因为，<code>master</code> 分支所在提交并不是 <code>iss53</code> 分支所在提交的直接祖先，Git 不得不做一些额外的工作。 出现这种情况的时候，Git 会使用两个分支的末端所指的快照（<code>C4</code> 和 <code>C5</code>）以及这两个分支的公共祖先（<code>C2</code>），做一个简单的三方合并。</p></blockquote> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730172108.png" alt="image-20210730172107089"></p> <p><strong>合并提交</strong></p> <blockquote><p>和之前将分支指针向前推进所不同的是，Git 将此次三方合并的结果做了一个新的快照并且自动创建一个新的提交指向它。 这个被称作一次合并提交，它的特别之处在于他有不止一个父提交。</p></blockquote> <p><img src="https://cdn.jsdelivr.net/gh/cwenan/blog.img/20210730172215.png" alt="image-20210730172214146"></p> <p>这时你已经完成了任务，把iss53分支删除即可<code>git branch -d iss53</code></p> <p><strong>冲突</strong></p> <p>使用<code>git merge branch_name</code>时，常常会出现冲突</p> <p>当你在两个不同分支中，对同一个文件的同一个位置进行了不同的修改，Git无法判断如何合并，因此产生了冲突，可以使用<code>git status</code>命令来查看那些因为包含冲突而处于未合并状态的文件</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>$ <span class="token function">git</span> status
+On branch master
+You have unmerged paths.
+  <span class="token punctuation">(</span>fix conflicts and run <span class="token string">&quot;git commit&quot;</span><span class="token punctuation">)</span>
+
+Unmerged paths:
+  <span class="token punctuation">(</span>use <span class="token string">&quot;git add &lt;file&gt;...&quot;</span> to mark resolution<span class="token punctuation">)</span>
+
+    both modified:      index.html
+
+no changes added to commit <span class="token punctuation">(</span>use <span class="token string">&quot;git add&quot;</span> and/or <span class="token string">&quot;git commit -a&quot;</span><span class="token punctuation">)</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><p>冲突的表现形式如下：</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token operator">&lt;&lt;&lt;</span><span class="token operator">&lt;&lt;&lt;</span><span class="token operator">&lt;</span> HEAD:index.html
+<span class="token operator">&lt;</span>div <span class="token assign-left variable">id</span><span class="token operator">=</span><span class="token string">&quot;footer&quot;</span><span class="token operator">&gt;</span>contact <span class="token builtin class-name">:</span> email.support@github.com<span class="token operator">&lt;</span>/div<span class="token operator">&gt;</span>
+<span class="token operator">==</span><span class="token operator">==</span><span class="token operator">==</span><span class="token operator">=</span>
+<span class="token operator">&lt;</span>div <span class="token assign-left variable">id</span><span class="token operator">=</span><span class="token string">&quot;footer&quot;</span><span class="token operator">&gt;</span>
+ please contact us at support@github.com
+<span class="token operator">&lt;</span>/div<span class="token operator">&gt;</span>
+<span class="token operator">&gt;&gt;</span><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;&gt;</span><span class="token operator">&gt;</span> iss53:index.html
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br></div></div><ul><li>由等线分割成两部分</li> <li>等线上半部分，也就是HEAD指向的部分，是当前分支所修改的内容</li> <li>等线下部分，也就是iss53所对应的部分，是iss53分支所修改的内容</li> <li>因为git无法做出判断使用哪一部分，所以由人来手动删除</li></ul> <p><strong>解决冲突</strong>：</p> <ul><li>选择使用等线分割的两部分中的一个，或者自行合并这些内容</li> <li>把<code>&lt;&lt;&lt;&lt; &gt;&gt;&gt;&gt;&gt; =====</code>这些符号删除掉</li> <li>当解决所有冲突后，使用<code>git add</code>命令来将其标记为冲突已解决</li> <li>使用<code>git status</code>命令来查看冲突是否已被解决</li> <li>使用<code>git commit</code>来保存新的版本(可选)</li></ul> <h2 id="分支管理"><a href="#分支管理" class="header-anchor">#</a> 分支管理</h2> <p>获取分支列表</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 获取分支列表</span>
+$ <span class="token function">git</span> branch
+
+
+<span class="token comment">#有*号代表的是当前分支</span>
+$ <span class="token function">git</span> branch
+  iss53
+* master
+  testing
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br></div></div><p>查看每个分支最后一次提交</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>$ <span class="token function">git</span> branch --v
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>查看分支是否合并</p> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#查看已经合并到当前分支的分支</span>
+$ <span class="token function">git</span> branch --merged
+
+<span class="token comment"># 查看还没有合并到当前分支的分支</span>
+$ <span class="token function">git</span> branch --no-merged
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">2021年7月31日</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/tools/git/05.html" class="prev">
+        基本命令
+      </a></span> <span class="next"><a href="/docs/tools/git/07.html">
+        打标签
+      </a>
+      →
+    </span></p></div>  <!----></main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.393b6f2a.js" defer></script><script src="/assets/js/6.42dbbf34.js" defer></script><script src="/assets/js/2.b314cc4e.js" defer></script><script src="/assets/js/27.e99970c2.js" defer></script>
+  </body>
+</html>
